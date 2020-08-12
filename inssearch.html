@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <title> INSTRUCTOR SEARCH </title>
+<style> 
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+input[type=submit]:hover {
+    background-color: gold;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+</style>
+
+    </head>
+
+    <body>
+
+    <form action="inssearch1.php" method="post">
+
+        INS_ID:<input type="text" name="INS_ID"><br><br>
+
+        
+
+
+        <input type="submit" name="search" value="Find" placeholder="Search...">
+
+           </form>
+
+    </body>
+
+</html>
